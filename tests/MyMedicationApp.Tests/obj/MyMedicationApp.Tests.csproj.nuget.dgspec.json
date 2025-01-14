@@ -13,7 +13,6 @@
         "packagesPath": "/Users/milad/.nuget/packages/",
         "outputPath": "/Users/milad/Documents/Projects/ASP.NET/MyMedicationApp/src/MyMedicationApp.Api/obj/",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/milad/.nuget/NuGet/NuGet.Config"
         ],
@@ -49,7 +48,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -120,7 +120,6 @@
         "packagesPath": "/Users/milad/.nuget/packages/",
         "outputPath": "/Users/milad/Documents/Projects/ASP.NET/MyMedicationApp/src/MyMedicationApp.Application/obj/",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/milad/.nuget/NuGet/NuGet.Config"
         ],
@@ -150,7 +149,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -194,7 +194,6 @@
         "packagesPath": "/Users/milad/.nuget/packages/",
         "outputPath": "/Users/milad/Documents/Projects/ASP.NET/MyMedicationApp/src/MyMedicationApp.Domain/obj/",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/milad/.nuget/NuGet/NuGet.Config"
         ],
@@ -220,7 +219,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -264,7 +264,6 @@
         "packagesPath": "/Users/milad/.nuget/packages/",
         "outputPath": "/Users/milad/Documents/Projects/ASP.NET/MyMedicationApp/src/MyMedicationApp.Infrastructure/obj/",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/milad/.nuget/NuGet/NuGet.Config"
         ],
@@ -297,11 +296,28 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -341,7 +357,6 @@
         "packagesPath": "/Users/milad/.nuget/packages/",
         "outputPath": "/Users/milad/Documents/Projects/ASP.NET/MyMedicationApp/tests/MyMedicationApp.Tests/obj/",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/milad/.nuget/NuGet/NuGet.Config"
         ],
@@ -380,7 +395,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -391,16 +407,24 @@
               "version": "[17.8.0, )"
             },
             "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.3, )"
+            },
+            "moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.5.3, )"
+              "version": "[2.9.3, )"
             },
             "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.5.3, )"
+              "version": "[3.0.1, )"
             }
           },
           "imports": [

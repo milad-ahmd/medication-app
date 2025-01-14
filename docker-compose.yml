@@ -1,0 +1,29 @@
+version: '3.9'
+services:
+  mymedication-db:
+    image: postgres:15-alpine
+    container_name: mymedication-db
+    environment:
+      POSTGRES_DB: MyMedicationDb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - mymedication-data:/var/lib/postgresql/data
+
+  mymedication-api:
+    build:
+      context: ./  # Solution root
+      dockerfile: ./src/MyMedicationApp.Api/Dockerfile
+    container_name: mymedication-api
+    depends_on:
+      - mymedication-db
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: "Host=mymedication-db;Database=MyMedicationDb;Username=postgres;Password=postgres"
+    ports:
+      - "8080:80"
+
+volumes:
+  mymedication-data:

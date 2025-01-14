@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using MyMedicationApp.Application.Interfaces;
 using MyMedicationApp.Domain.Entities;
 using MyMedicationApp.Infrastructure.Data;
