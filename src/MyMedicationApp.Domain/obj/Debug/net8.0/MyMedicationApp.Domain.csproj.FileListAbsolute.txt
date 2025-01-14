@@ -1,0 +1,11 @@
+/Users/milad/Documents/Projects/ASP.NET/MyMedicationApp/src/MyMedicationApp.Domain/bin/Debug/net8.0/MyMedicationApp.Domain.deps.json
+/Users/milad/Documents/Projects/ASP.NET/MyMedicationApp/src/MyMedicationApp.Domain/bin/Debug/net8.0/MyMedicationApp.Domain.dll
+/Users/milad/Documents/Projects/ASP.NET/MyMedicationApp/src/MyMedicationApp.Domain/bin/Debug/net8.0/MyMedicationApp.Domain.pdb
+/Users/milad/Documents/Projects/ASP.NET/MyMedicationApp/src/MyMedicationApp.Domain/obj/Debug/net8.0/MyMedicationApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/milad/Documents/Projects/ASP.NET/MyMedicationApp/src/MyMedicationApp.Domain/obj/Debug/net8.0/MyMedicationApp.Domain.AssemblyInfoInputs.cache
+/Users/milad/Documents/Projects/ASP.NET/MyMedicationApp/src/MyMedicationApp.Domain/obj/Debug/net8.0/MyMedicationApp.Domain.AssemblyInfo.cs
+/Users/milad/Documents/Projects/ASP.NET/MyMedicationApp/src/MyMedicationApp.Domain/obj/Debug/net8.0/MyMedicationApp.Domain.csproj.CoreCompileInputs.cache
+/Users/milad/Documents/Projects/ASP.NET/MyMedicationApp/src/MyMedicationApp.Domain/obj/Debug/net8.0/MyMedicationApp.Domain.dll
+/Users/milad/Documents/Projects/ASP.NET/MyMedicationApp/src/MyMedicationApp.Domain/obj/Debug/net8.0/refint/MyMedicationApp.Domain.dll
+/Users/milad/Documents/Projects/ASP.NET/MyMedicationApp/src/MyMedicationApp.Domain/obj/Debug/net8.0/MyMedicationApp.Domain.pdb
+/Users/milad/Documents/Projects/ASP.NET/MyMedicationApp/src/MyMedicationApp.Domain/obj/Debug/net8.0/ref/MyMedicationApp.Domain.dll
