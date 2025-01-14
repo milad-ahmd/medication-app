@@ -60,7 +60,7 @@ MyMedicationApp
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/MyMedicationApp.git
+git clone https://github.com/milad-ahmd/MyMedicationApp.git
 cd MyMedicationApp
 ```
 
