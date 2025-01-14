@@ -188,6 +188,6 @@ If everything compiles successfully, proceed.
 
 ### Author
 
-- **Your Name** – [GitHub](https://github.com/milad-ahmd) – *miladahmadi803@gmail.com*
+- **Milad Ahmadi** – [GitHub](https://github.com/milad-ahmd) – *miladahmadi803@gmail.com*
 
 Feel free to open issues or submit PRs for improvements!
